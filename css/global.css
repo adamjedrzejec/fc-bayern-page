@@ -16,7 +16,8 @@ html, body {
 }
 
 .navbar {
-    height: 90px;
+    height: 100%;
+    padding: 20px 0;
     width: 100%;
     background-color: #c51e30;
     outline: #0066b2 5px solid;
@@ -26,6 +27,7 @@ html, body {
 .flex-row {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .navbar-button {
