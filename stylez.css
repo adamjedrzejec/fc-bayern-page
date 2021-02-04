@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+
+#svg-logo {
+    width: 70px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#navbar {
+    height: 90px;
+    width: 100%;
+    background-color: #c51e30;
+    outline: #0066b2 5px solid;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-button {
+    background-color: #0066b2;
+    color: white;
+    padding: 12px 0;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    height: 70%;
+    margin: auto 0;
+    border-radius: 10px;
+    border: white 2px solid;
+    
+}
