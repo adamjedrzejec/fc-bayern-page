@@ -1,0 +1,33 @@
+table {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+th {
+    background-color: #0066b2;
+    color: white;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #c51e3060;
+}
+
+tr:nth-child(odd) {
+    background-color: #0066b260;
+}
+
+.division-of-work {
+    display: flex;
+    width: 100%;
+}
+
+.division-of-work-col {
+    width: 100%;
+    padding: 10px 50px;
+}
