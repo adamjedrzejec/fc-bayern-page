@@ -1,0 +1,39 @@
+.recent-matches {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-match {
+    width: 400px;
+    border: whitesmoke 2px solid;
+    border-radius: 12px;
+    margin: 20px 0;
+    padding: 10px 20px 20px;
+}
+
+.recent-match-element {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+}
+
+.rm-icon {
+    height: 20px;
+    width: 20px;
+    min-width: 30px;
+}
+
+.rm-icon-img {
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+}
+
+.rm-info {
+    margin-left: 10px;
+}
+
+.rm-time {
+    margin-left: 10px;
+    font-weight: bold;
+}

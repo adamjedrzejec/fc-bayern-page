@@ -1,11 +1,17 @@
 html, body {
     margin: 0;
+    background-color: #381115;
+    color: whitesmoke;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     height: 100%;
     margin: auto;
+}
+
+.section {
+    padding: 30px 0;
 }
 
 .fc-bayern-logo {
@@ -26,7 +32,7 @@ html, body {
 
 .flex-row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
