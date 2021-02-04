@@ -1,0 +1,21 @@
+.photo-gallery{
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.photo-gallery.reverse {
+    flex-direction: row-reverse;
+}
+
+.gallery-img {
+    width: 40%;
+}
+
+.gallery-description {
+    width: 60%;
+    padding: 10px 20px;
+    align-self: center;
+}
