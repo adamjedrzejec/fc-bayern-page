@@ -11,6 +11,13 @@ label {
 
 #newsletter-submit-button {
     margin-top: 20px;
+    color: white;
+    padding: 12px 0;
+    width: 150px;
+    background-color: #c51e30;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    border: #0066b2 2px solid;
 }
 
 #newsletter-success {
@@ -22,6 +29,6 @@ label {
 #form-container {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     align-items: center;
+    margin-top: 80px;
 }

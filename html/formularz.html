@@ -20,7 +20,7 @@
 <body onload="onLoad()">
     <div class="navbar">
         <img src="../images/fc-bayern-logo.png" alt="FC Bayern logo" class="fc-bayern-logo">
-        <div class="flex-row container">
+        <div class="flex-row navbar-container">
             <button class="navbar-button" onclick="window.location='./index.html'">Strona główna</button>
             <button class="navbar-button" onclick="window.location='./zespol.html'">Zespół</button>
             <button class="navbar-button" onclick="window.location='./formularz.html'">Formularz</button>
@@ -32,7 +32,7 @@
     <div class="container" id="form-container">
         <h1 id="newsletter-header">Zapisz się do naszego newslettera!</h1>
 
-        <form id="newsletter-form" onsubmit="submitForm()">
+        <form id="newsletter-form" onsubmit="">
             <label for="imie">Imie:</label><br>
             <input class="input-wide" type="text" name="imie"><br>
 
@@ -52,11 +52,14 @@
             <button id="newsletter-submit-button" type="submit">Wyślij</button>
         </form>
 
-        <!-- TODO: hidden -->
-        <div id="newsletter-success" type="submit"> 
+        <div id="newsletter-success" type="submit" hidden> 
             Zostałeś pomyślnie zarejestrowany!
         </div>
     </div>
 
+    <div class="footer">
+        <p>Adam & Mateusz Piekarscy</p>
+        <p>Rokiciny-Kolonia 2021</p>
+    </div>
 </body>
 </html>

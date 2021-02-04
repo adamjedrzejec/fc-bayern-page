@@ -1,6 +1,8 @@
 html, body {
     margin: 0;
-    background-color: #381115;
+    background-image: url('../images/stadium.jpg');
+    background-attachment: fixed;
+    background-size: cover;
     color: whitesmoke;
 }
 
@@ -8,6 +10,8 @@ html, body {
     max-width: 1000px;
     height: 100%;
     margin: auto;
+    padding: 60px 30px;
+    background-color: #28282b;
 }
 
 .section {
@@ -21,8 +25,16 @@ html, body {
     left: 10px;
 }
 
-.navbar {
+.navbar-container {
+    max-width: 1000px;
     height: 100%;
+    margin: auto;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    height: fit-content;
     padding: 20px 0;
     width: 100%;
     background-color: #c51e30;
@@ -49,4 +61,19 @@ html, body {
     margin: auto 0;
     border-radius: 10px;
     border: white 2px solid;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #0066b2;
+    outline:#c51e30 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: auto 20px;
 }
