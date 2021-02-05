@@ -34,25 +34,25 @@
 
         <form id="newsletter-form" onsubmit="">
             <label for="imie">Imie:</label><br>
-            <input class="input-wide" type="text" name="imie"><br>
+            <input class="input-wide" type="text" id="imie"><br>
 
             <label for="nazwisko">Nazwisko:</label><br>
-            <input class="input-wide" type="text" name="nazwisko"><br>
+            <input class="input-wide" type="text" id="nazwisko"><br>
 
             <label for="data-urodzenia">Data urodzenia:</label><br>
-            <input class="input-wide" type="date" name="data-urodzenia"><br>
+            <input class="input-wide" type="date" id="data-urodzenia"><br>
 
             <label for="email">Email:</label><br>
-            <input class="input-wide" type="email" name="email"><br>
+            <input class="input-wide" type="email" id="email"><br>
 
             <label for="plec">Płeć:</label><br>
-            <input type="radio" name="plec" value="m"> Mężczyzna<br>
+            <input type="radio" id="plec" value="m"> Mężczyzna<br>
             <input type="radio" name="plec" value="k"> Kobieta<br>
 
             <button id="newsletter-submit-button" type="submit">Wyślij</button>
         </form>
 
-        <div id="newsletter-success" type="submit" hidden> 
+        <div id="newsletter-success" hidden> 
             Zostałeś pomyślnie zarejestrowany!
         </div>
     </div>
